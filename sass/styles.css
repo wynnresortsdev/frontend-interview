@@ -1,0 +1,55 @@
+body {
+  background: ghostwhite;
+}
+
+.store {
+  width: 1024px;
+  margin: auto;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.store .feature {
+  width: 100%;
+  height: 170px;
+}
+
+.store .store-listing {
+  background: white;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.store-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 30px 5px;
+}
+
+.store-info .logo {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: -49px;
+  border-radius: 50px;
+  overflow: hidden;
+  border: 5px solid white;
+}
+/*# sourceMappingURL=styles.css.map */

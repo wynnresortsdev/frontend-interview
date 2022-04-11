@@ -1,0 +1,70 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap Exercise</title>
+        <link rel="stylesheet" href="./sass/styles.css"/>
+        <!-- add bootstrap css here-->
+    </head>
+    <body class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="">
+                    <h1>Bootstrap Coding Exercise</h1>
+                    <p><i>Instructions: Fix the layout and create 2 items in the Store Listing. Tasks will be listed below. The goal is to make the page look better. You can use HTML5, SASS, and JQuery/Javascript to solve.</i></p>
+                    <h5>Tasks</h5>
+                    <ul>
+                        <li>Add Bootstrap v4.0 CSS and JS script CDN files</li>
+                        <li>Change the ADD and REMOVE button background to #00A696 and the text color to #ffffff</li>
+                        <li>Create a TWO Column layout where the Store is on the LEFT and the TOTAL PRICE is on the RIGHT</li>
+                        <li>Create the grid layout for the Store listing items so they align properly</li>
+                        <li>When the user clicks the ADD button, update the SUBTOTAL AND Total PRICE text</li>
+                    </ul>
+                    <h5>Bonus</h5>
+                    <ul>
+                      <li>Increase the font size of the price on the store listing items to 1.2em </li>
+                        <li>Update the photos to reflect the products</li>
+                        <li>Add the Tax of 8% to the Total value</li>
+                        <li>Add the items name to the order summary and show price</li>
+                    </ul>
+                </div>            
+                <div class="">
+                    <!-- store -->
+                    <div class="store">
+                        <div class="store-listing">
+                          <div class="feature">
+                            <img src="https://m.media-amazon.com/images/I/51phIQXX2eL._AC_SS450_.jpg" width="100%"/>
+                          </div>
+                          <div class="store-info">
+                            <div class="logo">
+                              <img src="https://images.macrumors.com/t/9r84bU_ZTOTrUixxwhjHUFsAvD4=/800x0/smart/article-new/2017/09/iphonexdesign.jpg?lossy" width="100%"/>
+                            </div>
+                            <div class="title">
+                              <h4>
+                                iPhone 8
+                              </h4>
+                              <div class="detail">
+                                <small class="price">340.00</small>
+                              </div>
+                              <div>
+                                <button class="btn btn-default addItem">Add</button>
+                                <button class="btn btn-default removeItem">Remove</button>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                    </div> 
+                </div>
+                <!-- order summary -->
+                <div class="col-sm-3 col-md-3">
+                    <h4>ORDER SUMMARY</h4>
+                    <hr>
+                    <div><h6>Subtotal&nbsp;.......................&nbsp;<span id="subtotal">$0.00</span></h6></div>
+                    <div><h6>Tax&nbsp;.................................&nbsp;<span id="tax">$0.00</span></h6></div>
+                    <div><h3>Total&nbsp;...........&nbsp;<span id="total">$0.00</span></h3></div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Bootstrap 4 JS script -->
+       <script src="./js/site.js"></script>
+    </body>
+</html>
